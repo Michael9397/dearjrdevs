@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Dear Jr. Devs</title>
+    <link href="https://jigsaw-blog-template.tighten.co/blog" />
+    <link type="application/atom+xml" rel="self" href="https://jigsaw-blog-template.tighten.co/blog/feed.atom" />
+    <updated>2022-06-02T02:32:17+00:00</updated>
+    <id>https://jigsaw-blog-template.tighten.co/blog/feed.atom</id>
+    <author>
+        <name>Michael Claar</name>
+    </author>
+                <entry>
+    <id>https://jigsaw-blog-template.tighten.co/blog/start-here</id>
+    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/start-here" />
+    <title>Start Here!</title>
+    <published>2022-05-01T00:00:00+00:00</published>
+    <updated>2022-05-01T00:00:00+00:00</updated>
+    <author>
+        <name>Michael Claar  </name>
+    </author>
+    <summary type="html">These letters are intentionally ordered.  It&#039;s better if you start 
+at the beginning and go through the letters in order. This isn&#039;t 
+the kind of material that gets outdated.  Here&#039;s the rough idea of 
+this website through code.
+
+
+
+
+  Note:
+  The......</summary>
+    <content type="html"><![CDATA[
+        <h2>Here's what we are trying to do.</h2>
+
+<p>These letters are intentionally ordered.  It's better if you start 
+at the beginning and go through the letters in order. This isn't 
+the kind of material that gets outdated.  Here's the rough idea of 
+this website through code.</p>
+
+<pre><code class="language-javascript">// Initialize New Career
+const listOfNeededSkills = [ 
+    'coding-ability', 'coding-style', 'coding-environment-setup', 
+    'version-control', 'ide', 'company-culture', 'effort',
+    'team-relationships', 'company-values', 'department-rules', 
+];
+ let calculateScoreAtNewJob = ((lessonsLeared) =&gt; {
+     return lessonsLeared.reduce((acc, lesson) =&gt; {
+         if (listOfNeededSkills.includes(lesson)) {
+             acc += 1 / listOfNeededSkills.length;
+         }
+         return acc;
+     }, 0) * 100;
+});
+</code></pre>
+
+<blockquote>
+  <p><strong>Note:</strong>
+  The listOfNeededSkills isn't close to exhaustive.  It's just to start the idea.
+  There are so many things going on when you start your job, that you can't keep all of them in your head at the same time.</p>
+  
+  <p>If you aren't into javascript or haven't seen the reduce method before, all this
+  is trying to say is there is a lot to learn when you are starting your career.</p>
+</blockquote>
+
+<p>As someone who has watched plenty of new people start their careers, I've seen the problems you will likely encounter.  I want to give you some reminders of things you probably know, but in the overwhelming mess that is starting a new job, you might have overlooked.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://jigsaw-blog-template.tighten.co/blog/proving-too-much</id>
+    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/proving-too-much" />
+    <title>Proving too much...</title>
+    <published>2022-05-05T00:00:00+00:00</published>
+    <updated>2022-05-05T00:00:00+00:00</updated>
+    <author>
+        <name>Michael Claar  </name>
+    </author>
+    <summary type="html">When a Jr. Dev is first hired, they normally feel an immense pressure to produce.  It’s painfully obvious when they are given a small task or a practice task that is easier than what most others  are doing and they feel like they are going slow. What......</summary>
+    <content type="html"><![CDATA[
+        <p>When a Jr. Dev is first hired, they normally feel an immense pressure to produce.  It’s painfully obvious when they are given a small task or a practice task that is easier than what most others  are doing and they feel like they are going slow. What I’ve seen them do more than anything is put their head down, and work really intensely at their tasks.  While this sounds like a virtuous thing to do (and it is well meaning), it’s the wrong approach.  Here is some perspective that hopefully helps new Jr. devs get better results with a lot less frustration.</p>
+
+<p>Often one of the first things a Jr. Dev does is forget to take breaks when they are stuck.  I imagine the programming headaches are very intense.  They get zoned in so solidly on the issue that they are stuck on, they can’t step back and see how it fits into the larger picture.   Somehow because they are on the job now, they don’t think stepping away is the right decision anymore.  The same tricks that worked for them when learning to code (taking a 5 minute walk) all of the sudden seems like the wrong choice.  If you don’t feel comfortable getting up and walking, open your computer screen to some unrelated documentation and zone out for 5 minutes.  Clearing your head is an important part of being able to think.</p>
+
+<p>When two or more Jr. Devs start at the same time,  it’s pretty natural that they aren’t at the same place and their skillsets aren’t even.  If the other devs are further along than you, that’s fine.  You weren’t picked because it’s a race or to see which one of you was better.  You were picked because the hiring team saw potential.  Your job is to prove them right, not to be better or faster than the other members.  It’s hard to see, but the people that are further along have their own shortcomings and issues that they need to grow with.</p>
+
+<p>On a related side note, don’t apologize for not knowing things.  It’s not a surprise to the team that a Jr. Dev has knowledge gaps.  The more you are worrying about looking contrite for your shortcomings, the less you can hear the ideas that people are trying to share with you.</p>
+
+<p>The amount you have to learn as a new hire onto a dev team is staggering for anyone normally.  For Jr. Devs, it’s much worse because you don’t have all of your coding concepts fully formed.  Senior devs don’t learn it all in one pass and they understand what’s being told to them much better.  Server architecture, deployment strategy, version control practices, coding styles and practices, key terms that are unique to their projects, business goals, where to find documents, how the team handles QA, ticketing systems,... there are plenty more.  All of these are things you will eventually figure out and they will be different with every job you take.  When others tell you how some of these things work,  take notes when you can, but don’t expect it to be perfectly fit in your head.</p>
+
+<p>Give yourself some grace.  Take some time and read part of the code base every day.  I know it doesn’t feel like it moves you towards the goal of whatever ticket you are given, but spending an hour a day figuring out the code base early on will get you up to speed more quickly.  Take the time to connect the dots of how things fit together.  Instead of a being a reliable producer in x months, maybe you will get there in x/1.5.  Take some time during your tickets to think about how whatever you’re touching fits into their codebase. Asking a question to help you understand that section of the code gives a much better feeling to your mentors than an apology.</p>
+
+<p>Proving too much too soon really comes down to trying to prove you are valuable to the team.  Doing this causes you to make suboptimal choices.  Let go of the imposter syndrome and do your best to grow.  This might seem crazy to Jr. Developers, but people going too fast is just as scary as people going too slowly.   Someone that kicks out projects too fast looks like they aren’t thinking about the implications of their work.   If you are a new Jr. Developer, you were hired for a reason.  Prove their choice right by growing in your knowledge of the company, growing your coding knowledge,  and producing quality work.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://jigsaw-blog-template.tighten.co/blog/how-and-when-to-ask-for-help</id>
+    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/how-and-when-to-ask-for-help" />
+    <title>How and when to ask for help</title>
+    <published>2022-05-09T00:00:00+00:00</published>
+    <updated>2022-05-09T00:00:00+00:00</updated>
+    <author>
+        <name>Michael Claar  </name>
+    </author>
+    <summary type="html">One of the clearest memories I have of when I started my first dev job was asking my boss for help.  When I had a question on the ticket’s he assigned me, he always asked questions like he didn’t know what I was talking about.  He made me explain to......</summary>
+    <content type="html"><![CDATA[
+        <p>One of the clearest memories I have of when I started my first dev job was asking my boss for help.  When I had a question on the ticket’s he assigned me, he always asked questions like he didn’t know what I was talking about.  He made me explain to him what the ticket was for, what the issue was that I was having, and the steps I had tried before he would start analyzing my issue.  If I came back 5 minutes later, the process started all over.  He didn’t have memory issues, it was part of his process.</p>
+
+<p>Often I felt like I was being treated like I was an idiot for it.  Why have me explain the same thing I had explained 5 minutes before.  The ticket hadn’t changed.  Was I really doing work so unimportant that it wasn’t worth remembering?  Often the problem hadn’t changed, only the list of solutions I tried had changed.  Maybe I had a new piece of feedback from the system, but I was stuck just the same.  It seemed he was more interested in repeating the ritual than getting to the interesting part.  It took me a couple weeks to figure it out, but my boss did me a real favor by running me through this process.</p>
+
+<p>Not wanting to show him my frustration with having to go through the long explanation over and over, I decided to start messaging him instead of turning around and talking to him.  I thought I could at least copy/paste all of the set up part each time and maybe not have to repeat it.  I wrote out all of the answers for what he normally asked.  As I wrote it out, I started doubting some of my assumptions that I was making. I would prove to myself each step I took was true before I hit send to him.</p>
+
+<p>Here’s what I made sure to include in what I wrote him:</p>
+
+<ul>
+<li>What the ticket was (usually with a hyper link)</li>
+<li>What the problem I was having was.</li>
+<li>What I had tried to fix it so far.</li>
+<li>What my best guess to move forward was.</li>
+</ul>
+
+<p>What I found was that about half the time, I never sent the message to my boss.  By proving my assumptions to myself each step of the way, I often found errors in my thinking and the corrections lead me to a better solution.  As I got better, it got to about 80% of the time, I didn’t have to send the message to my boss.  I also found my boss’s attitude towards my issues improved.  He came over interested and already thinking about my problems when he walked up to my desk.   He was actively engaged and didn’t walk me through the basics anymore.</p>
+
+<p>I can’t read what was in his mind and he’s no longer around to ask, but he taught me how and when to ask for help.  The answer isn’t after you’ve spent x amount of time trying or before you waste x number of company hours stuck.  You ask when you have researched your problem well enough to explain it thoroughly.  How you ask is by presenting your case for where you are stuck and how you have tried to fix it.  “Hey, I’ve got a problem” isn’t enticing to anyone.  “I’ve tried these things and here’s what I can’t get past” is intriguing.  It makes someone interested to see if they could see what you tried and couldn’t.  Having been on the other side of it now, it honestly makes it more fun.</p>
+
+<p>It’s rare now, but if I’m really stuck, I will still write out a request for help on occasion.  I don’t have anyone to send it to anymore, but going through the process helps me align what I think I’m seeing with what is actually happening.  A lot of people recommend the rubber duck approach (explaining the problem out loud to an inanimate object).  I find writing it out works better for me.  I glaze over parts when no one is questioning me back, but if I write it out I tend to capture more information.  Maybe because it slows me down, maybe because I take it more seriously.  Give it a shot and see what works best for you.  We aren’t all built the same, so your mileage may vary.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-1</id>
+    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-1" />
+    <title>What did you intend? Pt. 1</title>
+    <published>2022-05-12T00:00:00+00:00</published>
+    <updated>2022-05-12T00:00:00+00:00</updated>
+    <author>
+        <name>Michael Claar  </name>
+    </author>
+    <summary type="html">There are a lot of perspective shifts a new developer needs to make.  When you learn and work by yourself, the consequences are different.  If you do something sloppy in your version control, only you read it normally.  If you add in a package to your......</summary>
+    <content type="html"><![CDATA[
+        <p>There are a lot of perspective shifts a new developer needs to make.  When you learn and work by yourself, the consequences are different.  If you do something sloppy in your version control, only you read it normally.  If you add in a package to your project, only 1 person has to learn it. If you get an ugly piece of logic to work, you can walk away from it and leave it alone.  Other than code found on Stack Overflow, you don’t have to work with code someone else produced.  All of the sudden, in a team environment, things look different.</p>
+
+<p>You are reading code that was written by people who may or may not be around to ask questions to.  Your code all of the sudden is seen by other people who are judging it for not whether or not it works, but does it convey it’s intentions well.  Maybe you write or come across something like this...</p>
+
+<pre><code class="language-javascript">extension = 3 * 86400;
+reminder = 4 * 604800;
+</code></pre>
+
+<p>Maybe you have worked with time enough that you recognize those numbers.  Maybe not...  You have to start asking yourself if it’s reasonable for other people to know what those numbers are.  For those of you who can’t let it go until you understand, those are the number of seconds in a day and in a week. All of the sudden, someone is going to have to touch that work again in maybe 3 months,  6 month or even longer possibly.  But when you or someone else goes back to it, they need to see what you thought.</p>
+
+<p>This isn’t a lesson on variable names or not having magic values in your code.  It’s broader than that.  You want someone else to be able to read what you are doing and have it make sense to them.  You want it to look enough like the code surrounded it, that it logically fits in when someone analyzes the the code next time.  If everyone uses long descriptive names, and you use terse ones, it will look out of place.  If everything else is broken into small functions and you have a huge one, it will look wrong to everyone else.  It’s possible that a long function is still the best answer in that situation but it’s a long shot.</p>
+
+<p>It’s really tempting to give you all of my personal preferences for how I like the code to look, but it’s the wrong choice and I have to put my ego aside.  It’s also what I’m asking you to do.  I have to remind myself that the goal isn’t that it makes me happy.  The goal is readability and cohesion with its surroundings.  Of course it has to work too.  But if it works, that doesn’t mean you are done working on it yet.</p>
+
+<pre><code class="language-jsx">function buildARobot(parts) {
+    partsToWeld = parts.filter(p =&gt; p.type === 'weld');
+    weldedParts = weldParts(partsToWeld);
+
+    partsToBolt = parts.filter(p =&gt; p.type === 'bolt');
+    boltedParts = boltParts(partsToBolt);
+
+    robot = assembleParts(weldedParts, boltedParts);
+    return polishRobot(robot);
+}
+</code></pre>
+
+<p>In this nonsense bit of code, hopefully you can see how clear it is to follow the pattern.  Other than learning I have no idea how to actually build a robot, you can see what is supposed to be happening at each step of the way.  The filtering lines show you that a bit of work that happens in that class isn’t the end of the world as long as it reads well.  These functions could be inlined and it would still work.  Perhaps they average 50 complex lines of code each.  Maybe you have a sense of efficiency that says you would save 3 function calls.  But imagine having to dig through that rather than finding out there was a problem with the boltedParts.  Now you know where to look.  It’s easy to chase down.</p>
+
+<p>Make sure whoever comes behind you can see your intentions as clear as possible.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://jigsaw-blog-template.tighten.co/blog/standing-out-before-you-can-keep-up</id>
+    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/standing-out-before-you-can-keep-up" />
+    <title>Standing Out Before You Can Keep Up</title>
+    <published>2022-05-17T00:00:00+00:00</published>
+    <updated>2022-05-17T00:00:00+00:00</updated>
+    <author>
+        <name>Michael Claar  </name>
+    </author>
+    <summary type="html">In an earlier career, I was an electrician.  Of course before I was an electrician, 
+I was an electrician’s helper.  While I was mechanically inclined, I didn’t know 
+enough about electrical work in order to be helpful doing it.   What really......</summary>
+    <content type="html"><![CDATA[
+        <p>In an earlier career, I was an electrician.  Of course before I was an electrician, 
+I was an electrician’s helper.  While I was mechanically inclined, I didn’t know 
+enough about electrical work in order to be helpful doing it.   What really 
+surprised me was that I still had many ways that I could be helpful and stand out.<br />
+My first day working, they needed people to dig a trench so they can run some 
+unground wire.  It turns out I didn’t need any special knowledge to dig, as someone 
+who grew up on a farm, I had that down.  There were three of us out there digging, 
+and half way through the morning, the supervisor showed up.  My ditch was almost 
+twice as far as either of the other guys.</p>
+
+<p>I don’t know if I learned the lesson that day, but it strongly reinforced to me 
+that hard work and willingness to try goes a long ways.  The funny thing is, the 
+next thing I did was stop working for 15 minutes.  The supervisor saw my progress 
+and came up to talk to me and I happily engaged.  He had done my initial paperwork 
+with me, but this was the first time he seemed interested in me.  We talked about 
+my background and how I hoped to grow at the company.  The conversation did more 
+for me that morning than the digging.  I started to build a relationship and trust. 
+He walked away from that conversation thinking I was someone worth investing in.</p>
+
+<p>Normally, new developers I see also come in working hard and usually to a fault.<br />
+They beat themselves up over running into errors setting up their machines.  Maybe 
+they struggle with the linux commands or have a problem with their operating system.<br />
+They won’t take the necessary break to start thinking clearly again and so they beat 
+their heads against simple problems.  Often in an effort to impress their new bosses 
+or coworkers, they turn down conversations because they want so badly to show 
+progress.  This is a huge mistake.</p>
+
+<p>Most of the problems you will face during your first few weeks have been seen and 
+fixed by people around you multiple times.  They know a lot of the pitfalls you are 
+about to run into because they have hit them as well.  Not only that, they have had 
+conversations with other co-workers so they have workshopped the issue and more 
+solid solutions often.   There is nothing impressive about the person that doesn’t 
+take help or stop to have a decent conversation to show they can fix something after 
+an hour when they were offered help.</p>
+
+<p>The second reason it’s a mistake is because as a new developer you don’t have a lot 
+to offer in code production, so to stand out, you need to build the relationships 
+and build rapport.  One of the biggest things you can set up in your first month 
+working for a company is people’s impression of you.  Do they see you as a team 
+player?  Who ends up mentoring you or watching over you probably has a lot to do 
+with the personality you present.</p>
+
+<p>If I remember right, it was two days later when all of the digging was done that we 
+were all split up to start working for individual foreman.  I was never told why I 
+got teamed up with my new boss, but I ended up with a really good match. When I saw 
+the other new guys in the office, they complained about how their bosses just 
+complained to them all of the time.  The work ethic opened my door to the 
+relationship building, and the relationship building put me on track to a successful 
+path with that company.</p>
+
+<p>Always take a bit of time and think about what your boss wants to hear from you.<br />
+Before you submit your first pull request, there is a lot you can do to build up 
+your rapport.  Asking someone about a specific part of the company culture is a 
+great place to start.  Asking them questions about what has made previous new 
+developers successful shows your interest in wanting to succeed.  A boss wants to 
+know you care about their business.  Asking questions showing you are interested 
+about more than your coding duties is a great conversation to have as well.</p>
+
+<p>Ultimately this is a don’t lose sight of the forest because of one large 
+intimidating tree.  Don’t over focus on getting a few tasks done that you miss out 
+on building relationships.  Don’t miss out on working the relationship side of your 
+job that is a major factor to your success.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-2</id>
+    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-2" />
+    <title>What did you intend? Pt. 2</title>
+    <published>2022-05-19T00:00:00+00:00</published>
+    <updated>2022-05-19T00:00:00+00:00</updated>
+    <author>
+        <name>Michael Claar  </name>
+    </author>
+    <summary type="html">Have you ever seen this idea on a t-shirt?
+
+
+
+I’ve spent more time than I care to admit trying to figure out which if either of these can be correct.  The truth is the intention is confusing because it’s meant to be confusing.  Let’s look at some......</summary>
+    <content type="html"><![CDATA[
+        <p>Have you ever seen this idea on a t-shirt?</p>
+
+<pre><code>The following statement is true.
+The previous statement is false.
+</code></pre>
+
+<p>I’ve spent more time than I care to admit trying to figure out which if either of these can be correct.  The truth is the intention is confusing because it’s meant to be confusing.  Let’s look at some code and see if we can have a bit more clarity.</p>
+
+<pre><code class="language-jsx">// Style 1
+let scores = [];
+list.forEach(listRow =&gt; {
+    score = getScore(listRow.records);
+    scores.push(score);
+});
+
+// Style 2
+let scores2 = list.map(listRow =&gt; {
+    return getScore(listRow.records);
+});
+</code></pre>
+
+<p>These two functions do the same thing.  They get an array of scores from some list.<br />
+Both are immutable and the size difference between the two is negligible.   Are two 
+lines of code really worth reading this article?  It’s actually worse than that, 
+what I really intend is to only talk about is only the difference of a single word 
+in each.</p>
+
+<p>If you don’t use the functional methods (like filter, map, reduce) than this one 
+might be harder to grasp, but it’s worth learning the intentions of the functions.<br />
+When you understand what the functions are intending to do, style 2 becomes the 
+obvious choice.  If I was working on a code base that avoided the functional 
+methods, I still wouldn’t use style 1.  I would use a “for of” loop.</p>
+
+<p>The idea behind forEach is that it doesn’t return anything.  It’s meant to process and 
+then not return a result.  If you console.log an array using the forEach method you 
+would get an undefined (i.e. <code>console.log(myArr.forEach(...)</code>).  The intention of a forEach method is that it is a void call. 
+Using it to build up a new value feels wrong to me.  It causes a collision point in 
+my mind.  My brain has to stop and process whether or not what is happening there 
+works because it’s doing something that doesn’t fit with its intention.</p>
+
+<pre><code class="language-jsx">list.map(listRow =&gt; {
+    console.log(listRow.records);
+});
+</code></pre>
+
+<p>This is equally wrong.  It works, but it’s wrong.  When I see the map function my 
+brain tells me that the purpose of a map function is to return an altered array 
+from the original.  Maybe it’s just a score, maybe it’s an extra piece of data 
+included, but it’s returning a new set of data.  If you console.log the 
+<code>list.map()</code> when it has a proper return statement, you expect to see an array 
+of values.  Your brain still has to process why map doesn’t have a return.
+Ultimately it just slows you down a bit.</p>
+
+<p>These mistakes catch your eye the same way as a typo in a variable name stands 
+out.  Ultimately, when someone else reads your code to understand what you’re 
+doing, they will stop the process what they are seeing for a minute and not be 
+able to look through your code as smoothly.  Such a seemingly small thing erodes 
+confidence that your code is going to work correctly.</p>
+
+<p>A solid step towards maturing as a developer is to have clear intentions with 
+your choice of methods and your code in general.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://jigsaw-blog-template.tighten.co/blog/how-to-update-a-function</id>
+    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/how-to-update-a-function" />
+    <title>How to update a function</title>
+    <published>2022-05-24T00:00:00+00:00</published>
+    <updated>2022-05-24T00:00:00+00:00</updated>
+    <author>
+        <name>Michael Claar  </name>
+    </author>
+    <summary type="html">Pretend there is a table of calendar events on your website that is driven by JavaScript.  Turns out this calendar is getting too long to be read easily and something needs to change.  The change is going to be tabs that when people click on them filter......</summary>
+    <content type="html"><![CDATA[
+        <p>Pretend there is a table of calendar events on your website that is driven by JavaScript.  Turns out this calendar is getting too long to be read easily and something needs to change.  The change is going to be tabs that when people click on them filter the results to a category of the calendar.  You start doing your research and come across this function.</p>
+
+<pre><code class="language-jsx">const buildCalendarRecords = (data =&gt; {
+    return data.calendar.map(row =&gt; {
+            return {
+                 event: row.title,
+                 startDate: row.start_date,
+                 endDate: row.end_date,
+           type: row.is_virtual
+            }
+  });
+});
+</code></pre>
+
+<p>After you look through the code and understand how things are passed back and forth you decide this is the right place to add your changes.  There is a key principle here that save you from a few potential headaches.  Don’t change the functionality for the basic use case.  Another way of saying it is that everywhere this function is already used should work the same way when you are done with it.  Only when you pass in new arguments, should it change.   If it works different in other places and gets through your company’s QA/testing process, it will usually be found by a customer who needed something to be different and the pressure will be on at that point to fix it quickly.</p>
+
+<p>Let’s start with the wrong approach.</p>
+
+<pre><code class="language-jsx">const buildCalendarRecords = ((data, flag) =&gt; {
+    return data.calendar
+        .filter(row =&gt; data.category === flag)
+        .map(row =&gt; {
+            return {
+                 event: row.title,
+                 startDate: row.start_date,
+                 endDate: row.end_date,
+           type: row.is_virtual
+            }
+  });
+});
+</code></pre>
+
+<p>In this solution, you have left a clean looking answer.  You click all of your new tabs and see that only the records you want to show are populating on each tab.  You triumphantly send it to your boss not realizing the issue you’ve unleashed.  Hopefully your boss reads it and sends it back saying “Hey, when I load the full calendar, I’m getting an error. The tabs work, but the full calendar doesn’t anymore.”</p>
+
+<p>Okay, fine you realize you need to handle a case where nothing is filtered.  You go back to work…</p>
+
+<pre><code class="language-jsx">const buildCalendarRecords = ((data, flag) =&gt; {
+  let records = data.calendar
+  if (flag !== 'all') {
+        records = records.filter(row =&gt; data.category === flag)
+  }
+
+    return records.map(row =&gt; {
+        return {
+             event: row.title,
+             startDate: row.start_date,
+             endDate: row.end_date,
+       type: row.is_virtual
+        }
+  });
+});
+</code></pre>
+
+<p>Fine, it’s not as pretty, but you pass a flag all for the main calendar implementation and send it back to your boss.  Thankfully he checks again and sends it back to you saying “That page is working fine now but the other page that uses <code>buildCalendarRecords()</code> are still broken.</p>
+
+<p>It could be easy to blame the boss for not filling you in on the implications of your code, but really the principle we are discussing today would save you from all of the pain.  If they had a better testing policy, this would never have happened.  If it works the same as it did for it’s normal use case, you don’t have to worry about other places it’s being used.  The crazy thing is one minor change fixes it.</p>
+
+<pre><code class="language-jsx">const buildCalendarRecords = ((data, flag = "all") =&gt; {
+  let records = data.calendar
+  if (flag !== 'all') {
+        records = records.filter(row =&gt; data.category === flag)
+  }
+
+    return records.map(row =&gt; {
+        return {
+             event: row.title,
+             startDate: row.start_date,
+             endDate: row.end_date,
+       type: row.is_virtual
+        }
+  });
+});
+</code></pre>
+
+<p>By adding a default value for your new value and carefully coding, the path works the same as it did before by default.  This might be worthy of another letter later, but there is a point to where it gets too ugly and you need to refactor rather than using the existing functionality.  But learning this technique can save you from looking foolish early on and it’s not something you naturally see when work on solo projects.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-3</id>
+    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-3" />
+    <title>What did you intend? Pt. 3</title>
+    <published>2022-05-26T00:00:00+00:00</published>
+    <updated>2022-05-26T00:00:00+00:00</updated>
+    <author>
+        <name>Michael Claar  </name>
+    </author>
+    <summary type="html">We are finally at variable  and function names.  This isn’t an intended destination, but it is an unavoidable topic that always needs to be addressed.  It’s often the case when I’m working on a bit of code, I spend longer trying to figure out the......</summary>
+    <content type="html"><![CDATA[
+        <p>We are finally at variable  and function names.  This isn’t an intended destination, but it is an unavoidable topic that always needs to be addressed.  It’s often the case when I’m working on a bit of code, I spend longer trying to figure out the variable names than I do figuring out the logic of the code.  It’s such a strange phenomena that people who are primarily concerned with logic and order could get stuck on word choice, but that is often the state we find ourselves in.</p>
+
+<p>There are some principles that really help and we are about to work through some of the major ones, but there is also a goal that overrides all of them.  The end goal is that when someone else reads the code, they get the correct mental model of what you are doing.  The intention of the code becomes clear.  When they see your choices with variable or function names, they know what is being stored or accomplished.</p>
+
+<p>The first principle you should use is apply the conventions of your code base. If everyone 
+names the results of the query “results” or even “res”, you shouldn’t break the convention.<br />
+I don’t personally like that convention, but if that is how a codebase reads, I would use it 
+to maintain readability.  That’s more important than winning a point about clarity.  We read 
+code more than we write it, and if people are expecting to see “res” and instead they see 
+“widgetRawData” they are going to stop and try to figure out if you are doing the same thing 
+everyone else did.</p>
+
+<p>The second principle is that terse names should only be used for simple painfully obvious things.<br />
+If I pass a group of users to the front end, I’m tempted to call it users.  But if there are other 
+users on the page, this immediately becomes confusing. Maybe a wiki page has a list of commenters 
+and thread authors that stored in two different lists.  Users and users2 would just be rude to 
+figure out.  You want people to get the context immediately.  You also never know when someone wants 
+to add something really similar.  If I had called the thread authors “users” and then I had to add 
+commenters to the page as a later step, the “users” suddenly looks inadequate and weak.  If I choose 
+good names, when I add moderators later, everything will appear seamless.</p>
+
+<p>A lot of times, two words for names are better than one.   It bumps up the specificity and helps 
+avoid some awkward moments.  Picture a javascript front end sending calls to the back end for 
+standard CRUD operations.  You have a save method, fine.  Your edit method looks tight.  But then 
+you get to delete.  Delete is often a keyword and should probably be avoided.  So your methods end 
+up being add, edit, update, and deleteEntry. While slightly more verbose, addWidget, updateWidget, 
+and deleteWidget looks a lot more consistent and intentional.  This rule doesn’t always apply.  If 
+your code base used idx for index, or i for a loop iterator, there is no reason to go another 
+direction with it.  People will know what it means, just as you do when you read the code they 
+write. It is still worth taking a moment to consider whether things are clearer with two word 
+variable names.</p>
+
+<p>This is going to sound a bit counter to the previous points, but often you can shorten names by 
+using the context around it as well.  The secret to the shortening is that it’s already obvious by 
+the situation you’re in.  If you are working in the widget class, a create function is fine. 
+<code>widget.updateWidget()</code> almost seems silly.  If it reads better without the extra words and it’s 
+consistent, go with the simplest solution.</p>
+
+<p>My personal process is to first get the code working before I think about naming functions. If a name doesn’t immediately jump into my head, I use names like “thisThing”, “doSomething()”, or “whatever” while I’m writing the code because I’m not sure what I want to call it yet, and I want to get the logic organized before I worry about what to call the variables or functions names.  Then it comes down to an iterative approach.  I refactor the name, look at it again and think about whether or not it’s conveys what I think it should, and repeat the process until I’m satisfied I’ve got it.</p>
+    ]]></content>
+</entry>
+    </feed>
