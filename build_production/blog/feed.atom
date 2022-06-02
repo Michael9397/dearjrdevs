@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Dear Jr. Devs</title>
-    <link href="https://jigsaw-blog-template.tighten.co/blog" />
-    <link type="application/atom+xml" rel="self" href="https://jigsaw-blog-template.tighten.co/blog/feed.atom" />
-    <updated>2022-06-02T11:44:37+00:00</updated>
-    <id>https://jigsaw-blog-template.tighten.co/blog/feed.atom</id>
+    <link href="/blog" />
+    <link type="application/atom+xml" rel="self" href="/blog/feed.atom" />
+    <updated>2022-06-02T12:05:21+00:00</updated>
+    <id>/blog/feed.atom</id>
     <author>
         <name>Michael Claar</name>
     </author>
                 <entry>
-    <id>https://jigsaw-blog-template.tighten.co/blog/start-here</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/start-here" />
+    <id>/blog/start-here</id>
+    <link type="text/html" rel="alternate" href="/blog/start-here" />
     <title>Start Here!</title>
     <published>2022-05-01T00:00:00+00:00</published>
     <updated>2022-05-01T00:00:00+00:00</updated>
@@ -64,8 +64,8 @@ const listOfNeededSkills = [
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/blog/proving-too-much</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/proving-too-much" />
+    <id>/blog/proving-too-much</id>
+    <link type="text/html" rel="alternate" href="/blog/proving-too-much" />
     <title>Proving too much...</title>
     <published>2022-05-05T00:00:00+00:00</published>
     <updated>2022-05-05T00:00:00+00:00</updated>
@@ -90,8 +90,8 @@ const listOfNeededSkills = [
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/blog/how-and-when-to-ask-for-help</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/how-and-when-to-ask-for-help" />
+    <id>/blog/how-and-when-to-ask-for-help</id>
+    <link type="text/html" rel="alternate" href="/blog/how-and-when-to-ask-for-help" />
     <title>How and when to ask for help</title>
     <published>2022-05-09T00:00:00+00:00</published>
     <updated>2022-05-09T00:00:00+00:00</updated>
@@ -123,8 +123,8 @@ const listOfNeededSkills = [
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-1</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-1" />
+    <id>/blog/what-did-you-intend-pt-1</id>
+    <link type="text/html" rel="alternate" href="/blog/what-did-you-intend-pt-1" />
     <title>What did you intend? Pt. 1</title>
     <published>2022-05-12T00:00:00+00:00</published>
     <updated>2022-05-12T00:00:00+00:00</updated>
@@ -165,8 +165,8 @@ reminder = 4 * 604800;
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/blog/standing-out-before-you-can-keep-up</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/standing-out-before-you-can-keep-up" />
+    <id>/blog/standing-out-before-you-can-keep-up</id>
+    <link type="text/html" rel="alternate" href="/blog/standing-out-before-you-can-keep-up" />
     <title>Standing Out Before You Can Keep Up</title>
     <published>2022-05-17T00:00:00+00:00</published>
     <updated>2022-05-17T00:00:00+00:00</updated>
@@ -242,8 +242,8 @@ job that is a major factor to your success.</p>
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-2</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-2" />
+    <id>/blog/what-did-you-intend-pt-2</id>
+    <link type="text/html" rel="alternate" href="/blog/what-did-you-intend-pt-2" />
     <title>What did you intend? Pt. 2</title>
     <published>2022-05-19T00:00:00+00:00</published>
     <updated>2022-05-19T00:00:00+00:00</updated>
@@ -320,8 +320,8 @@ your choice of methods and your code in general.</p>
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/blog/how-to-update-a-function</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/how-to-update-a-function" />
+    <id>/blog/how-to-update-a-function</id>
+    <link type="text/html" rel="alternate" href="/blog/how-to-update-a-function" />
     <title>How to update a function</title>
     <published>2022-05-24T00:00:00+00:00</published>
     <updated>2022-05-24T00:00:00+00:00</updated>
@@ -408,8 +408,8 @@ your choice of methods and your code in general.</p>
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-3</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/what-did-you-intend-pt-3" />
+    <id>/blog/what-did-you-intend-pt-3</id>
+    <link type="text/html" rel="alternate" href="/blog/what-did-you-intend-pt-3" />
     <title>What did you intend? Pt. 3</title>
     <published>2022-05-26T00:00:00+00:00</published>
     <updated>2022-05-26T00:00:00+00:00</updated>

@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => '/',
     'production' => false,
     'siteName' => 'Dear Jr. Devs',
     'siteDescription' => 'A blog trying to help new junior developers start strong.',
