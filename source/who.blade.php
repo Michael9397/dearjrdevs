@@ -5,7 +5,7 @@ description: A little about me
 @extends('_layouts.main')
 
 @section('body')
-    <h1>Why?</h1>
+    <h1>Who wrote this?</h1>
 
     <img src="/assets/images/beach_easter_2022.png"
         alt="About image"
