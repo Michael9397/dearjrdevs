@@ -23,8 +23,8 @@ description: A little about me
     </p>
 
     <p class="mb-6">
-        I learned a lot about leading a team from when I was an electrician.  It's
-        seem a bit funny to me that it carries over so well.  Keeping a team
+        I learned a lot about leading a team from when I was an electrician.  It
+        seems a bit funny to me that it carries over so well.  Keeping a team
         positive and moving forward was the biggest factor for success.  Then when
         I got into teams of software developers, the team building process was largely
         ignored.  My first coding boss was a guy who was brilliant, but he had a
